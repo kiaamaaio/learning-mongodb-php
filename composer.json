@@ -1,0 +1,14 @@
+{
+    "name": "kiaamaaio/learning-mongodb-php",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Learning\\": "src/"
+        }
+    },
+    "require": {
+        "ext-json": "*",
+        "ext-mongodb": "*",
+        "mongodb/mongodb": "^1.8"
+    }
+}
